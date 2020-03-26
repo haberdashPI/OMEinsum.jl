@@ -1,7 +1,7 @@
 using .CuArrays
 using .CuArrays.CUDAnative
 
-println("OMEinsum: YOU FIND CUDA!")
+@info "Loading support for OMEinsum when using CuArrays"
 
 include("cudapatch.jl")
 
